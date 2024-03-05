@@ -1,0 +1,12 @@
+com/wsoap/pwserver/consulta/ObjectFactory.class
+com/wsoap/pwserver/consulta/package-info.class
+com/wsoap/pwserver/consulta/RucContribuyente.class
+com/wsoap/pwserver/consulta/ConsultaRucResponse.class
+com/wsoap/WebServiceConfigure.class
+com/wsoap/data/repository/ContribuyenteRepository.class
+com/wsoap/pwserver/exeptions/ContribuyenteNotFoundExeption.class
+com/wsoap/data/service/ContribuyenteService.class
+com/wsoap/pwserver/consulta/ConsultaRucRequest.class
+com/wsoap/pwserver/endpoint/ConsultaRucEndpoint.class
+com/wsoap/data/entity/Contribuyente.class
+com/wsoap/ConsultarucApplication.class

@@ -1,0 +1,12 @@
+/Users/faza/appjava/consultarucWsSecurity/src/main/java/com/wsoap/pwserver/consulta/package-info.java
+/Users/faza/appjava/consultarucWsSecurity/src/main/java/com/wsoap/pwserver/consulta/ConsultaRucRequest.java
+/Users/faza/appjava/consultarucWsSecurity/src/main/java/com/wsoap/data/repository/ContribuyenteRepository.java
+/Users/faza/appjava/consultarucWsSecurity/src/main/java/com/wsoap/pwserver/consulta/RucContribuyente.java
+/Users/faza/appjava/consultarucWsSecurity/src/main/java/com/wsoap/pwserver/exeptions/ContribuyenteNotFoundExeption.java
+/Users/faza/appjava/consultarucWsSecurity/src/main/java/com/wsoap/WebServiceConfigure.java
+/Users/faza/appjava/consultarucWsSecurity/src/main/java/com/wsoap/pwserver/consulta/ConsultaRucResponse.java
+/Users/faza/appjava/consultarucWsSecurity/src/main/java/com/wsoap/data/entity/Contribuyente.java
+/Users/faza/appjava/consultarucWsSecurity/src/main/java/com/wsoap/pwserver/consulta/ObjectFactory.java
+/Users/faza/appjava/consultarucWsSecurity/src/main/java/com/wsoap/data/service/ContribuyenteService.java
+/Users/faza/appjava/consultarucWsSecurity/src/main/java/com/wsoap/ConsultarucApplication.java
+/Users/faza/appjava/consultarucWsSecurity/src/main/java/com/wsoap/pwserver/endpoint/ConsultaRucEndpoint.java
