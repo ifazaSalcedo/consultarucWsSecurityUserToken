@@ -1,8 +1,6 @@
 package com.wsoap;
 
-import com.wsoap.pwserver.endpoint.ConsultaRucEndpoint;
 import org.apache.wss4j.dom.WSConstants;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
@@ -11,9 +9,7 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.ws.config.annotation.EnableWs;
 import org.springframework.ws.config.annotation.WsConfigurerAdapter;
 import org.springframework.ws.server.EndpointInterceptor;
-import org.springframework.ws.server.EndpointMapping;
 import org.springframework.ws.server.endpoint.interceptor.PayloadLoggingInterceptor;
-import org.springframework.ws.server.endpoint.mapping.PayloadRootQNameEndpointMapping;
 import org.springframework.ws.soap.SoapVersion;
 import org.springframework.ws.soap.saaj.SaajSoapMessageFactory;
 import org.springframework.ws.soap.security.wss4j2.Wss4jSecurityInterceptor;
@@ -23,7 +19,6 @@ import org.springframework.ws.wsdl.wsdl11.DefaultWsdl11Definition;
 import org.springframework.xml.xsd.SimpleXsdSchema;
 import org.springframework.xml.xsd.XsdSchema;
 
-import javax.security.auth.callback.CallbackHandler;
 import java.util.Collections;
 import java.util.List;
 
@@ -67,7 +62,7 @@ public class WebServiceConfigure extends WsConfigurerAdapter {
         Wss4jSecurityInterceptor securityInterceptor = new Wss4jSecurityInterceptor();
         //securityInterceptor.setSecurementActions("UsernameToken");
         securityInterceptor.setValidationActions(WSConstants.USERNAME_TOKEN_LN);
-        securityInterceptor.setSecurementPasswordType(WSConstants.PW_NONE);
+        //securityInterceptor.setSecurementPasswordType(WSConstants.PW_NONE);
         securityInterceptor.setValidationCallbackHandler(callbackHandler());
         return securityInterceptor;
     }
